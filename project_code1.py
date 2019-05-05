@@ -320,7 +320,7 @@ ax11 = ax1.twinx()
 ax11.set_ylim(ax1.get_ylim())
 ax11.get_yaxis().set_tick_params(direction='in',labelright='False')
 plt.setp(ax1.get_xticklabels(),visible=False)
-plt.title('American Airlines Delay Flights as Functions of Year',fontsize=14)
+plt.title('United Airlines Delay Flights as Functions of Year',fontsize=14)
 
 
 plt.subplots_adjust(hspace=0)
